@@ -275,7 +275,7 @@
                 <element name="output_02.assembly.100_20000.phased_block" file="output_02.assembly.100_20000.phased_block.tabular" ftype="tabular"/>
                 <element name="output_02.assembly.contig" file="output_02.assembly.contig.tabular" ftype="tabular"/>
             </output_collection>
-            <output_collection name="bed_files" type="list" count="5">
+            <output_collection name="bed_files" type="list" count="6">
                 <element name="output_02.assembly.100_20000.phased_block" file="output_02.assembly.100_20000.phased_block.bed" ftype="bed"/>
                 <element name="output_02.assembly.100_20000.switch" file="output_02.assembly.100_20000.switch.bed" ftype="bed"/>
                 <element name="output_02.assembly" file="output_02.assembly.bed" ftype="bed"/>
@@ -323,10 +323,14 @@
             <output_collection name="qv_files" type="list" count="2">
                 <element name="output_03.assembly" file="output_03.assembly.qv.tabular" ftype="tabular">
                     <assert_contents>
-                        <has_size value="0" delta="1000"/>
+                        <has_size value="21" delta="10"/>
                     </assert_contents>
                 </element>
-                <element name="output_03" file="output_03.qv.tabular" ftype="tabular"/>
+                <element name="output_03" file="output_03.qv.tabular" ftype="tabular">
+                <assert_contents>
+                        <has_size value="0" delta="50"/>
+                    </assert_contents>
+                </element>
             </output_collection>
         </test>
         <test>
@@ -383,7 +387,11 @@
             </output_collection>
             <output_collection name="qv_files" type="list" count="2">
                 <element name="output_04.assembly" file="output_04.assembly.qv.tabular" ftype="tabular"/>
-                <element name="output_04" file="output_04.qv.tabular" ftype="tabular"/>
+                <element name="output_04" file="output_04.qv.tabular" ftype="tabular">
+                    <assert_contents>
+                        <has_size value="21" delta="10"/>
+                    </assert_contents>
+                </element>
             </output_collection>
         </test>
     </tests>
