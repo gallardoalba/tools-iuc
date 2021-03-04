@@ -171,7 +171,7 @@
                 </element>
                 <element name="output_01.assembly.block.N" file="output_01.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="20840" delta="1000"/>
+                        <has_size value="20840" delta="30000"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.continuity.N" file="output_01.assembly.continuity.N.png" ftype="png">
@@ -253,7 +253,7 @@
                 </element>
                 <element name="output_02.assembly.block.N" file="output_02.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="20840" delta="1000"/>
+                        <has_size value="20840" delta="30000"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.continuity.N" file="output_02.assembly.continuity.N.png" ftype="png">
@@ -328,7 +328,7 @@
                 </element>
                 <element name="output_03" file="output_03.qv.tabular" ftype="tabular">
                 <assert_contents>
-                        <has_text text="assembly"/>
+                        <has_size value="21" delta="10"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -358,7 +358,7 @@
                 </element>
                 <element name="output_04.assembly.spectra-cn.fl" file="output_04.assembly.spectra-cn.fl.png" ftype="png">
                     <assert_contents>
-                        <has_size value="79000" delta="1000"/>
+                        <has_size value="79000" delta="30000"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.assembly.spectra-cn.st" file="output_04.assembly.spectra-cn.st.png" ftype="png">
@@ -389,7 +389,7 @@
                 <element name="output_04.assembly" file="output_04.assembly.qv.tabular" ftype="tabular"/>
                 <element name="output_04" file="output_04.qv.tabular" ftype="tabular">
                     <assert_contents>
-                        <has_text text="assembly"/>
+                        <has_size value="23" delta="10"/>
                     </assert_contents>
                 </element>
             </output_collection>
