@@ -208,7 +208,7 @@
                 <element name="output_01.assembly.100_20000.switch" file="output_01.assembly.100_20000.switch.bed" ftype="bed"/>
                 <element name="output_01.assembly" file="output_01.assembly.bed" ftype="bed"/>
                 <element name="output_01.assembly.pat.hapmer" file="output_01.assembly.pat.hapmer.bed" ftype="bed"/>
-                <element name="output_01.assembly.mat.hapmer" file="output_01.assembly.mat.hapmer.bed" ftype="tabular">
+                <element name="output_01.assembly.mat.hapmer" file="output_01.assembly.mat.hapmer.bed" ftype="bed">
                     <assert_contents>
                         <has_size value="0" delta="1000"/>
                     </assert_contents>
@@ -280,7 +280,7 @@
                 <element name="output_02.assembly.100_20000.switch" file="output_02.assembly.100_20000.switch.bed" ftype="bed"/>
                 <element name="output_02.assembly" file="output_02.assembly.bed" ftype="bed"/>
                 <element name="output_02.assembly.pat.hapmer" file="output_02.assembly.pat.hapmer.bed" ftype="bed"/>
-                <element name="output_02.assembly.mat.hapmer" file="output_02.assembly.mat.hapmer.bed" ftype="tabular">
+                <element name="output_02.assembly.mat.hapmer" file="output_02.assembly.mat.hapmer.bed" ftype="bed">
                     <assert_contents>
                         <has_size value="0" delta="1000"/>
                     </assert_contents>
@@ -328,7 +328,7 @@
                 </element>
                 <element name="output_03" file="output_03.qv.tabular" ftype="tabular">
                 <assert_contents>
-                        <has_size value="0" delta="50"/>
+                        <has_text text="assembly"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -389,7 +389,7 @@
                 <element name="output_04.assembly" file="output_04.assembly.qv.tabular" ftype="tabular"/>
                 <element name="output_04" file="output_04.qv.tabular" ftype="tabular">
                     <assert_contents>
-                        <has_size value="21" delta="10"/>
+                        <has_text text="assembly"/>
                     </assert_contents>
                 </element>
             </output_collection>
