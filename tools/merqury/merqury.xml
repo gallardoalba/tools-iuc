@@ -171,7 +171,7 @@
                 </element>
                 <element name="output_01.assembly.block.N" file="output_01.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="20840" delta="30000"/>
+                        <has_size value="20840" delta="1000"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.continuity.N" file="output_01.assembly.continuity.N.png" ftype="png">
@@ -258,7 +258,7 @@
                 </element>
                 <element name="output_02.assembly.continuity.N" file="output_02.assembly.continuity.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="53862" delta="1000"/>
+                        <has_size value="24005" delta="1000"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.hapmers.blob" file="output_02.hapmers.blob.png" ftype="png">
@@ -321,11 +321,7 @@
                 <element name="completeness" file="output_03.completeness.stats.tabular" ftype="tabular"/>
             </output_collection>
             <output_collection name="qv_files" type="list" count="2">
-                <element name="output_03.assembly" file="output_03.assembly.qv.tabular" ftype="tabular">
-                    <assert_contents>
-                        <has_size value="21" delta="10"/>
-                    </assert_contents>
-                </element>
+                <element name="output_03.assembly" file="output_03.assembly.qv.tabular" ftype="tabular"/>
                 <element name="output_03" file="output_03.qv.tabular" ftype="tabular"/>
             </output_collection>
         </test>
