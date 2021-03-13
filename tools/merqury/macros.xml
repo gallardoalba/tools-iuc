@@ -16,7 +16,7 @@
             <requirement type="package" version="1.11">samtools</requirement>
             <requirement type="package" version="2.5.3">igvtools</requirement>
             <requirement type="package" version="4.6.0">findutils</requirement>
-
+            <requirement type="package" version="1">fonts-conda-ecosystem</requirement>
         </requirements>
     </xml>
     <xml name="citations">
