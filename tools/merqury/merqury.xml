@@ -171,12 +171,12 @@
                 </element>
                 <element name="output_01.assembly.block.N" file="output_01.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="20840" delta="1000"/>
+                        <has_size value="46477" delta="1000"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.continuity.N" file="output_01.assembly.continuity.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="24005" delta="1000"/>
+                        <has_size value="54312" delta="1000"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.100_20000.phased_block.blob" file="output_01.assembly.100_20000.phased_block.blob.png" ftype="png">
@@ -186,7 +186,7 @@
                 </element>
                 <element name="output_01.hapmers.blob" file="output_01.hapmers.blob.png" ftype="png">
                     <assert_contents>
-                        <has_size value="7626" delta="1000"/>
+                        <has_size value="15001" delta="1000"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -408,10 +408,7 @@ There is no need to run merqury per-assemblies. If two assemblies areprovided, M
                     
 **Output**
 
-The generated metrics include consensus quality and k-mer completeness, and when parental genomic sequences are available
-(either assembled or unassembled), Merqury can output haplotype completeness, phase block statistics, switch error rates,
-and visual representations of phase consistency for the child’s genome. This includes TDF (or BED) features that can be
-displayed in a genome browser for visualizing the presence of k-mer classes across a genome (e.g., the k-mers inherited from a parental genome).                    
+The generated metrics include consensus quality and k-mer completeness, and when parental genomic sequences are available (either assembled or unassembled), Merqury can output haplotype completeness, phase block statistics, switch error rates, and visual representations of phase consistency for the child’s genome. This includes TDF (or BED) features that can be displayed in a genome browser for visualizing the presence of k-mer classes across a genome (e.g., the k-mers inherited from a parental genome).                    
 
     ]]>    </help>
     <expand macro="citations"/>
