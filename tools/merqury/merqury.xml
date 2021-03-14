@@ -161,32 +161,32 @@
             <output_collection name="png_files" type="list" count="6">
                 <element name="output_01.assembly.mat.hapmer.spectra-cn.ln" file="output_01.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.pat.hapmer.spectra-cn.ln" file="output_01.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.block.N" file="output_01.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="46477" delta="1000"/>
+                        <has_size value="46477" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.continuity.N" file="output_01.assembly.continuity.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="54312" delta="1000"/>
+                        <has_size value="54312" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.100_20000.phased_block.blob" file="output_01.assembly.100_20000.phased_block.blob.png" ftype="png">
                     <assert_contents>
-                        <has_size value="3500" delta="1000"/>
+                        <has_size value="3500" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.hapmers.blob" file="output_01.hapmers.blob.png" ftype="png">
                     <assert_contents>
-                        <has_size value="15001" delta="1000"/>
+                        <has_size value="15001" delta="100"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -195,7 +195,7 @@
                 <element name="switches" file="output_01.switches.txt" ftype="tabular"/>
                 <element name="completeness" file="output_01.completeness.stats.tabular" ftype="tabular">
                     <assert_contents>
-                        <has_size value="0" delta="1000"/>
+                        <has_size value="0" delta="100"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -210,7 +210,7 @@
                 <element name="output_01.assembly.pat.hapmer" file="output_01.assembly.pat.hapmer.bed" ftype="bed"/>
                 <element name="output_01.assembly.mat.hapmer" file="output_01.assembly.mat.hapmer.bed" ftype="bed">
                     <assert_contents>
-                        <has_size value="0" delta="1000"/>
+                        <has_size value="0" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_01.assembly.sort" file="output_01.assembly.sort.bed" ftype="bed"/>
@@ -238,32 +238,32 @@
             <output_collection name="png_files" type="list" count="6">
                 <element name="output_02.assembly.mat.hapmer.spectra-cn.ln" file="output_02.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.pat.hapmer.spectra-cn.ln" file="output_02.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.100_20000.phased_block.blob" file="output_02.assembly.100_20000.phased_block.blob.png" ftype="png">
                     <assert_contents>
-                        <has_size value="3400" delta="1000"/>
+                        <has_size value="3519" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.block.N" file="output_02.assembly.block.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="20840" delta="30000"/>
+                        <has_size value="46477" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.continuity.N" file="output_02.assembly.continuity.N.png" ftype="png">
                     <assert_contents>
-                        <has_size value="24005" delta="1000"/>
+                        <has_size value="54312" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.hapmers.blob" file="output_02.hapmers.blob.png" ftype="png">
                     <assert_contents>
-                        <has_size value="7626" delta="1000"/>
+                        <has_size value="15001" delta="100"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -282,7 +282,7 @@
                 <element name="output_02.assembly.pat.hapmer" file="output_02.assembly.pat.hapmer.bed" ftype="bed"/>
                 <element name="output_02.assembly.mat.hapmer" file="output_02.assembly.mat.hapmer.bed" ftype="bed">
                     <assert_contents>
-                        <has_size value="0" delta="1000"/>
+                        <has_size value="0" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_02.assembly.sort" file="output_02.assembly.sort.bed" ftype="bed"/>
@@ -308,12 +308,12 @@
             <output_collection name="png_files" type="list" count="2">
                 <element name="output_03.assembly.spectra-cn.ln" file="output_03.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_03.spectra-asm.ln" file="output_03.spectra-asm.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="2700" delta="1000"/>
+                        <has_size value="2700" delta="100"/>
                     </assert_contents>
                 </element>
             </output_collection>
@@ -345,32 +345,32 @@
             <output_collection name="png_files" type="list" count="6">
                 <element name="output_04.assembly.spectra-cn.ln" file="output_04.assembly.spectra-cn.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="87700" delta="1000"/>
+                        <has_size value="115156" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.assembly.spectra-cn.fl" file="output_04.assembly.spectra-cn.fl.png" ftype="png">
                     <assert_contents>
-                        <has_size value="79000" delta="30000"/>
+                        <has_size value="108259" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.assembly.spectra-cn.st" file="output_04.assembly.spectra-cn.st.png" ftype="png">
                     <assert_contents>
-                        <has_size value="111900" delta="1000"/>
+                        <has_size value="137524" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.spectra-asm.fl" file="output_04.spectra-asm.fl.png" ftype="png">
                     <assert_contents>
-                        <has_size value="63550" delta="1000"/>
+                        <has_size value="102924" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.spectra-asm.ln" file="output_04.spectra-asm.ln.png" ftype="png">
                     <assert_contents>
-                        <has_size value="65012" delta="1000"/>
+                        <has_size value="104188" delta="100"/>
                     </assert_contents>
                 </element>
                 <element name="output_04.spectra-asm.st" file="output_04.spectra-asm.st.png" ftype="png">
                     <assert_contents>
-                        <has_size value="64193" delta="1000"/>
+                        <has_size value="102532" delta="100"/>
                     </assert_contents>
                 </element>
             </output_collection>
